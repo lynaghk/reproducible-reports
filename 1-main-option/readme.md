@@ -1,3 +1,5 @@
+Ticket at: http://dev.clojure.org/jira/browse/CLJS-2007
+
 ## Problem
 
 The ClojureScript compiler's `:main` option specifies an "entry point namespace".
