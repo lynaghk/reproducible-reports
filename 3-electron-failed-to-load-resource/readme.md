@@ -1,3 +1,5 @@
+See Electron Issue: https://github.com/electron/electron/issues/9555
+
 ## Problem
 
 How can an Electron application detect when its markup refers to a resource that cannot be loaded?
