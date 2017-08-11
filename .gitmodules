@@ -1,0 +1,3 @@
+[submodule "4-instaparse-perf/instaparse"]
+	path = 4-instaparse-perf/instaparse
+	url = https://github.com/Engelberg/instaparse
