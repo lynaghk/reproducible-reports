@@ -1,5 +1,7 @@
 # No line numbers in Neon backtrace
 
+[See Neon issue #308](https://github.com/neon-bindings/neon/issues/308).
+
 ## Steps to reproduce
 
 On OS X 10.9.5, Rust can compile a release binary that includes line numbers in the backtrace:
