@@ -1,0 +1,20 @@
+[package]
+name = "backtrace_test"
+version = "0.1.0"
+authors = ["Kevin J. Lynagh <kevin@keminglabs.com>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "backtrace_test"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.22"
+
+[dependencies]
+neon = "0.1.22"
+a_panic = { path = "a_panic"}
+
+[profile.release]
+debug = true

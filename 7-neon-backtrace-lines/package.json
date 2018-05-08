@@ -1,0 +1,14 @@
+{
+  "name": "backtrace_test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Kevin J. Lynagh <kevin@keminglabs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.1.22"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
