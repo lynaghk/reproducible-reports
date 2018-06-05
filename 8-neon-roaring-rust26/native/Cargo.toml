@@ -1,0 +1,18 @@
+[package]
+name = "neon_test"
+version = "0.1.0"
+authors = ["Kevin J. Lynagh <kevin@keminglabs.com>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "neon_test"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.23"
+
+[dependencies]
+neon = "0.1.23"
+#croaring = { path = "../../vendor/croaring-rs" }
+croaring = "0.3"
