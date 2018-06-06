@@ -14,5 +14,10 @@ neon-build = "0.1.23"
 
 [dependencies]
 neon = "0.1.23"
-#croaring = { path = "../../vendor/croaring-rs" }
 croaring = "0.3"
+
+# Note: enabling LTO as suggested here: https://users.rust-lang.org/t/compilation-error-only-occurs-with-neon-on-rust-1-26/17919/2
+# to resolve this issue https://github.com/rust-lang/rust/issues/50586
+# had no effect
+#[profile.release]
+#lto = true
